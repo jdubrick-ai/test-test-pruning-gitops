@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-test-pruning-database-config
+data:
+  VECTORDB_HOST: "test-test-pruning-database"
+  VECTORDB_PORT: ""
